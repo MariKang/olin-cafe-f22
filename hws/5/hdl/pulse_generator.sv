@@ -12,5 +12,20 @@ output logic out;
 logic [N-1:0] counter;
 logic counter_comparator;
 
+logic rst_out;
 
+always_comb begin : comp_logic
+  rst_out = (out | rst);
+  out = (counter == ticks);
+end
+
+
+always_ff @(posedge clk) begin : ff
+  if (rst_out) begin
+    counter <= 0;
+  end
+  else if (ena) begin
+    counter <= counter + 1;
+  end
+end
 endmodule

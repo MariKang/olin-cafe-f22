@@ -1,0 +1,25 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Mon Oct 31 04:00:49 2022
+[*]
+[dumpfile] "/home/mari/olin-cafe-f22/hws/5/pwm.fst"
+[dumpfile_mtime] "Mon Oct 31 04:00:10 2022"
+[dumpfile_size] 3266
+[savefile] "/home/mari/olin-cafe-f22/hws/5/wave_cfgs/pwm.gtkw"
+[timestart] 1650000000
+[size] 1000 600
+[pos] -1 -1
+*-30.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] test_pwm.
+[sst_width] 233
+[signals_width] 102
+[sst_expanded] 1
+[sst_vpaned_height] 144
+@28
+test_pwm.PWM.clk
+@22
+test_pwm.PWM.duty[3:0]
+@29
+test_pwm.PWM.out
+[pattern_trace] 1
+[pattern_trace] 0
